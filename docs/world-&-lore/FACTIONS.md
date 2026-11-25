@@ -1,7 +1,8 @@
 # Factions and Organizations
 ---
-***Status:** Initial draft
-**Last updated:**November 25, 2026
+**Status:** Initial draft
+**Last updated:** November 25, 2026
+---
 ## 1. Overview
 
 ULTIMA AETAS takes place in a world where civilization has suffered a catastrophic collapse, but human society has not disappeared.
