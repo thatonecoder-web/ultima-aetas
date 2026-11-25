@@ -1,6 +1,4 @@
 # Factions and Organizations
-**Status:** Initial draft
-**Last updated:** November 25 2026
 ---
 ## 1. Overview
 
