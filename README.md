@@ -2,153 +2,198 @@
 
 ### *The final age of humanity.*
 
-A dark, open-world zombie survival RPG set in the aftermath of civilization's collapse.
+A dark, open-world zombie survival RPG set in a world struggling to endure the aftermath of civilization's collapse.
 
-Explore an unforgiving world shaped by dynamic weather, realistic survival systems, evolving communities, and consequential decisions. Every action leaves a mark. Every decision has a history. Humanity's fate remains unwritten.
+Explore an unforgiving world shaped by dynamic environmental systems, evolving communities, persistent characters, and consequential decisions. Survive through preparation, adaptation, and observation. Every action leaves a mark. Every decision becomes part of history.
 
 ---
 
 ## About the Project
 
-**ULTIMA AETAS** is an ambitious single-player survival RPG focused on immersion, systemic world simulation, exploration, and long-term consequences.
+**ULTIMA AETAS** is an independent, single-player survival RPG focused on immersive gameplay, systemic world simulation, exploration, and long-term consequences.
 
-The game takes place in a persistent, interconnected world where survival involves considerably more than finding food and avoiding the infected. Weather, temperature, fatigue, relationships, reputation, and the passage of time all influence the player's experience.
+Set in a persistent and interconnected world, the game explores what survival means beyond the immediate struggle for necessities. Environmental conditions, physical needs, relationships, reputation, community dynamics, and the passage of time all contribute to the player's experience.
 
-The world continues to develop around the player. Communities change, people remember, relationships evolve, and decisions can have consequences long after they are made.
+The world exists beyond the player's immediate actions. Communities develop, individuals pursue their own interests, relationships change, and events can unfold independently of the protagonist.
 
-The initial release is being developed as a browser-based game, with a future desktop release planned.
+Players are free to establish their own pace, develop their own approach to survival, and shape their place within a world that does not revolve entirely around them.
+
+The initial release is being developed as a browser-based game, with a future standalone desktop release planned.
 
 ## Core Features
 
-*Planned and actively developing features are subject to change.*
+*The following features represent the project's intended direction. Implementation details and scope may evolve throughout development.*
 
 ### Survival & Environmental Simulation
 - Dynamic temperature and weather systems.
 - Body temperature, hydration, hunger, fatigue, and exhaustion.
-- Clothing insulation, wetness, and environmental protection.
-- Seasonal changes and environmental hazards.
-- Survival systems that interact with one another.
+- Clothing insulation, moisture retention, and environmental protection.
+- Seasonal transitions and environmental hazards.
+- Interconnected survival mechanics that influence one another.
+- Environmental conditions that affect both the player and the surrounding world.
 
-### Open World
-- A large, interconnected world to explore.
-- Abandoned settlements, residential areas, forests, commercial districts, and rural environments.
+### Open World & Exploration
+- A large, interconnected world with diverse environments.
+- Abandoned settlements, residential neighbourhoods, forests, commercial districts, and rural areas.
 - Enterable buildings and environmental storytelling.
 - Dynamic day-and-night cycles.
-- A world that changes as time passes.
+- Persistent environmental changes.
+- Locations and settlements that evolve over time.
 
-### Infected & AI
-- Behaviour driven by sound, sight, and environmental conditions.
+### Infected & Artificial Intelligence
+- Behaviour influenced by sound, sight, and environmental conditions.
 - Investigation, pursuit, and loss-of-target behaviour.
-- Different infected behaviours and characteristics.
-- NPC routines and independent world activity.
+- Distinct infected characteristics and behavioural variations.
+- NPC decision-making and independent world activity.
+- Behavioural systems influenced by environmental and situational conditions.
 
 ### NPCs & Relationships
-- Individual personalities, histories, and motivations.
-- Persistent memories of player actions.
-- Relationships that develop over time.
-- NPCs with their own routines, needs, and priorities.
+- Individually developed personalities, histories, and motivations.
+- Persistent memories of player interactions and decisions.
+- Relationships that develop and deteriorate over time.
+- NPCs with independent routines, needs, and priorities.
+- Characters capable of making decisions without direct player involvement.
+- Social interactions influenced by personal history and surrounding circumstances.
 
 ### Reputation & Consequences
-- A hidden honour and reputation system.
+- Hidden honour and reputation systems.
 - Regional differences in how communities perceive the player.
-- Rumours and information that spread throughout the world.
+- Rumours and information that spread between individuals and settlements.
+- Social consequences arising from player behaviour.
 - Decisions that influence future interactions, missions, and relationships.
+- A world-state system that preserves the consequences of previous events.
 
 ### Narrative & Campaign
 - A long-form, slow-burning single-player campaign.
 - Branching missions and consequential decisions.
 - Multiple possible narrative outcomes.
-- Persistent world-state tracking.
-- Stories that evolve based on player behaviour and the passage of time.
+- Persistent narrative and world-state tracking.
+- Stories that develop according to player behaviour and the passage of time.
+- Narrative events influenced by relationships, reputation, and community circumstances.
 
 ## Development Philosophy
 
-ULTIMA AETAS is being developed around several principles:
+ULTIMA AETAS is guided by six foundational principles:
 
-1. **Immersion:** Systems should interact naturally and consistently.
-2. **Consequences:** Player actions should have believable long-term effects.
-3. **Persistence:** The world should feel alive beyond the immediate player experience.
-4. **Freedom:** Players should control their own pace and approach.
-5. **Atmosphere:** Environmental storytelling and world-building should carry as much weight as dialogue.
-6. **Depth:** Systems should reward observation, preparation, and meaningful decision-making.
+1. **Immersion:** Gameplay systems should interact naturally and consistently to create a believable world.
+2. **Consequences:** Player actions should produce meaningful and believable short-term and long-term effects.
+3. **Persistence:** The world should continue developing beyond the player's immediate experience.
+4. **Freedom:** Players should have control over their pace, decisions, and approach to survival.
+5. **Atmosphere:** Environmental storytelling, world-building, and emergent events should carry as much narrative weight as dialogue.
+6. **Depth:** Systems should reward observation, preparation, adaptability, and meaningful decision-making.
 
-## Technology
+## Technology Stack
 
-The initial browser release is being developed with:
+The initial browser-based release is being developed using:
 
-- TypeScript
-- HTML5 Canvas
-- CSS
-- Vite
+- **TypeScript:** Core application logic and game systems.
+- **HTML5 Canvas:** World rendering and graphical presentation.
+- **CSS:** Interface styling and presentation.
+- **Vite:** Development environment and build tooling.
 
-The architecture is intended to support a future desktop release without requiring a complete rewrite.
+The project's architecture is being designed with future desktop deployment in mind, allowing for potential expansion without requiring a complete rewrite of the underlying systems.
 
-## Project Status
+## Development Status
 
-ULTIMA AETAS is currently in active development.
+**ULTIMA AETAS is currently in active development.**
 
-The initial priority is building a playable browser-based foundation, followed by the gradual implementation of the game's larger survival, world simulation, and narrative systems.
+Development is focused on establishing a functional browser-based foundation before progressively expanding the game's interconnected survival, artificial intelligence, world simulation, and narrative systems.
 
-**Current development priorities:**
+### Current Development Priorities
+
 - Core movement and world rendering.
 - World generation and exploration.
 - Survival and environmental simulation.
-- Infected behaviour.
-- Inventory and equipment.
-- NPC interaction.
+- Infected behaviour and AI.
+- Inventory and equipment systems.
+- NPC interaction and foundational character systems.
 - Save and load functionality.
+
+Additional systems will be introduced as the underlying architecture develops.
 
 ## Modding & Community
 
-ULTIMA AETAS is intended to support community-created modifications.
+ULTIMA AETAS is intended to accommodate community-created modifications and additional content.
 
-Players and developers are encouraged to create compatible non-commercial modifications, custom content, maps, scenarios, and other additions, subject to the project's licensing terms.
+Subject to the applicable licensing terms, the project aims to support non-commercial modifications, custom content, maps, scenarios, and other compatible additions.
 
-Mod creators retain ownership of their original contributions.
+Mod creators retain ownership of their original contributions, subject to any applicable third-party rights and licensing obligations.
 
-Commercial distribution, redistribution of the complete game, and unauthorized use of official intellectual property are restricted.
+Redistribution of the complete game, unauthorized commercial distribution, and unauthorized use of official intellectual property are restricted.
 
-See [LICENSE](LICENSE) for the applicable terms.
+For further information, consult the [LICENSE](LICENSE) file.
 
-## Licensing
+## Licensing & Intellectual Property
 
-The source code is distributed under the **PolyForm Noncommercial License 1.0.0**.
+The source code of ULTIMA AETAS is distributed under the **PolyForm Noncommercial License 1.0.0**.
 
-This permits non-commercial use, modification, and redistribution under the licence's conditions.
+The license permits non-commercial use, modification, and redistribution, subject to its terms and conditions.
 
-The game's official assets, branding, narrative content, and other proprietary materials remain subject to their respective rights and restrictions.
+The game's official branding, original narrative content, proprietary assets, and other intellectual property are subject to their respective ownership and usage restrictions.
 
-For commercial permissions, contact the copyright holder.
+Commercial permissions and licensing inquiries must be directed to the copyright holder.
+
+For the complete licensing terms, see [LICENSE](LICENSE).
 
 ## Contributions
 
-Unsolicited contributions will not be considered for developmental progress; please see the disclaimer at the bottom for more information.
+ULTIMA AETAS is currently developed independently, with development direction, architecture, and project management maintained by the project developer.
+
+At this stage, unsolicited contributions and external development submissions are not accepted into the project's official development branch.
+
+This policy may change as the project matures and its development requirements evolve.
+
+For general inquiries, collaboration proposals, or other matters, please use the contact information provided below.
 
 ## Roadmap
 
+The following roadmap outlines the project's major development milestones. Priorities and timelines are subject to change.
+
+### Foundation
 - [x] Establish project concept and direction.
 - [x] Define initial technology stack.
 - [x] Establish licensing direction.
 - [ ] Build initial playable prototype.
+- [ ] Establish foundational game architecture.
+
+### Core Gameplay
+- [ ] Implement movement and exploration.
 - [ ] Implement core survival systems.
+- [ ] Develop inventory and equipment.
+- [ ] Implement save and load functionality.
+
+### World Simulation
 - [ ] Implement dynamic weather and environmental simulation.
-- [ ] Develop infected AI.
-- [ ] Expand the world and exploration systems.
-- [ ] Implement NPC relationships and reputation.
+- [ ] Develop world generation.
+- [ ] Implement infected AI and behavioural systems.
+- [ ] Develop NPC routines and independent activity.
+- [ ] Implement persistent world-state tracking.
+
+### Narrative & Social Systems
+- [ ] Implement NPC relationships and memories.
+- [ ] Develop reputation and honour systems.
+- [ ] Implement community dynamics.
+- [ ] Develop branching missions and narrative consequences.
 - [ ] Develop the main campaign.
-- [ ] Polish and optimize browser release.
-- [ ] Prepare future desktop release.
+
+### Release & Expansion
+- [ ] Expand and refine the game world.
+- [ ] Polish and optimize the browser release.
+- [ ] Prepare future standalone desktop release.
+- [ ] Explore community modding support.
 
 ## Disclaimer
 
-ULTIMA AETAS is an independent, privately developed game project currently maintained by a single developer. All development, programming, design, narrative direction, and project management are currently handled independently.
+ULTIMA AETAS is an independent, privately developed game project currently maintained by a single developer.
 
-The project is not affiliated with any external studio, publisher, or organization unless explicitly stated otherwise.
+All current development, including programming, systems architecture, game design, narrative direction, and project management, is independently undertaken.
 
-*Interested in contributing to the development of ULTIMA AETAS? For collaboration, development assistance, or other inquiries, please contact the developer through one of the following channels:*
+The project is not affiliated with any external studio, publisher, organization, or commercial entity unless explicitly stated otherwise.
+
+*For collaboration proposals, development inquiries, or other correspondence, contact the developer through the following channels:*
 
 - **Email:** iman123ahmadi@outlook.com
-- **Discord:** [Discord Server / Contact Link — Coming Soon]
+- **Discord:** Coming soon.
 
 ---
 
