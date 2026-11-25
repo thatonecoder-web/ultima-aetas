@@ -122,11 +122,7 @@ For commercial permissions, contact the copyright holder.
 
 ## Contributions
 
-Contributions may be considered as development progresses.
-
-Before submitting substantial changes, please open an issue to discuss the proposed feature or modification.
-
-All contributions must comply with the project's licensing and contribution requirements.
+Unsolicited contributions will not be considered for developmental progress; please see the disclaimer at the bottom for more information.
 
 ## Roadmap
 
